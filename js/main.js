@@ -4,18 +4,17 @@
 for (let i = 1; i <= 100; i++){
     let multiploDiTre = i % 3;
     let multiploDiCinque = i % 5;
-
     // Condizione che stabilisce i multipli sia di 3 che di 5
     if (multiploDiTre === 0 && multiploDiCinque=== 0){
-        console.log (i + " è divisibile sia per 3 che per 5")
+        console.log ("Fizzbuzz");
 
     // Condizione che stabilisce i multipli di 3
     } else if (multiploDiTre === 0){
-      console.log (i + " è divisibile per 3")
+      console.log ("Fizz");
 
     // Condizione che stabilisce i multipli di 5
     } else if (multiploDiCinque === 0){
-        console.log (i + " è divisibile per 5")
+        console.log ("Buzz");
 
     } else{
         console.log(i);
